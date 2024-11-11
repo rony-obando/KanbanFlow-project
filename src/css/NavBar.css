@@ -1,0 +1,328 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1d2125;
+}
+
+.NavBar .top-space1 {
+    background-color: #1d2125;
+    /* Esto es para el color gris */
+    width: 100%;
+    /* Ocupa todo el ancho */
+    margin: 0;
+    /* No margen externo */
+    padding: 0;
+    height: 50px;
+    border-bottom: 1px solid #5f666e;
+    display: flex;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.NavBar .btn {
+
+    margin-top: 5px;
+    margin-left: 15px;
+    background-color: #1d2125;
+    border: none;
+    color: #9eacba;
+    font-size: 100xp;
+    font-family: "Onest";
+}
+
+.NavBar .btn:hover {
+    background-color: #282c2f;
+}
+
+.NavBar .btn-large-custom {
+    font-size: 18px;
+}
+
+.NavBar .dropdown-menu {
+    background-color: #363b3f;
+    width: 300px;
+    white-space: normal;
+    /* Permite que el texto se ajuste en varias líneas */
+    overflow-wrap: break-word;
+}
+
+.NavBar .itmes2 {
+    padding: 0;
+    /* Elimina el padding para que los ítems puedan centrarse correctamente */
+    margin: 0;
+}
+
+.NavBar .item3 {
+    display: flex;
+    /* Utiliza flexbox para alinear los ítems */
+    justify-content: center;
+    /* Centra los ítems horizontalmente */
+    align-items: center;
+    /* Centra los ítems verticalmente */
+    width: 100%;
+}
+
+.NavBar .item3 a {
+    flex-grow: 1;
+    /* Asegura que los enlaces ocupen todo el espacio disponible en li */
+    text-align: center;
+}
+
+
+.NavBar .dropdown-item ul li {
+    width: 400px;
+    /* Extiende los submenús para que ocupen el ancho total del menú principal */
+    white-space: normal;
+    /* Permite que el texto se ajuste en varias líneas */
+    overflow-wrap: break-word;
+
+}
+
+.NavBar .dropdown-item:hover {
+    background-color: #5b5f62;
+    color: #9eacba;
+}
+
+.NavBar .dropdown-item {
+    color: rgb(239, 236, 231);
+    width: 100%;
+    color: #9eacba;
+    white-space: normal;
+    /* Permite que el texto se ajuste en varias líneas */
+
+}
+
+.NavBar .dropdown-item div {
+    align-items: center;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+.NavBar .dropdown-item img {
+    height: 15px;
+    width: 15px;
+    margin-bottom: 5px;
+}
+
+.NavBar .dropdown-item span {
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 4px;
+}
+
+.NavBar .dropdown-item h6 {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.NavBar .dropdown-item:active {
+    background-color: #282c2f;
+}
+
+.NavBar .LogoNavBar1 {
+    margin-top: 13px;
+    margin-left: 20px;
+    height: 22px;
+    width: 22px;
+}
+
+.NavBar .text-top1 {
+    margin-left: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: "Onest";
+    font-weight: bold;
+    color: #9eacba;
+}
+
+.NavBar .tableros {
+    background-color: #1d2125;
+    margin-top: 50px;
+    margin-left: 50px;
+    max-width: 800px;
+    min-width: 200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+
+.NavBar .btn-create {
+    background-color: #4aa0a6;
+    color: #1d2125;
+    font-weight: 600;
+    height: 35px;
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+
+}
+
+.NavBar .btn-create:hover {
+    background-color: #6dcdd4;
+    color: #1d2125;
+}
+
+.NavBar .containerCT {
+    width: 100%;
+    padding-top: 20px;
+    border-radius: 8px;
+    font-family: "Onest";
+    display: grid;
+}
+
+.NavBar .containerCT input{
+    border: 1px solid #9eacba;
+    transition: border-color 0.3s;
+    outline: none
+}
+
+.NavBar .containerCT input:focus{
+    border-color: #6dcdd4;
+}
+
+.NavBar .containerCT select{
+    border: 1px solid #9eacba;
+    transition: border-color 0.3s;
+    outline: none
+}
+
+.NavBar .containerCT input:focus{
+    border-color: #6dcdd4;
+}
+
+.NavBar .containerCT select:focus{
+    border-color: #6dcdd4;
+}
+
+.form-group label{
+    font-size: 400;
+}
+
+
+.form-group{
+    justify-self: center;
+    width: 90%;
+}
+
+.dropdown-menu.show {
+    display: block; /* Visible cuando la clase `show` está presente */
+}
+
+.color-selector {
+    display: flex;
+    gap: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-self: center;
+}
+
+
+.color-selector button {
+    width: 50px;
+    height: 35px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.color-selector button:hover {
+    filter: brightness(1.3); 
+
+}
+
+.color-1 {
+    background: linear-gradient(to bottom right, #1565C0, #4FC3F7);
+}
+
+.color-2 {
+    background: linear-gradient(to bottom right, #e74c3c, #f39c12);
+}
+
+.color-3 {
+    background: linear-gradient(to bottom right, #272798, #7E7EF0);
+}
+
+.color-4 {
+    background: linear-gradient(to bottom right, #6A1B9A, #E91E63);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #9eacba;
+}
+
+.form-group input[type="text"],
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #444;
+    color: #9eacba;
+}
+
+.warning-message {
+    color: #f28c28;
+    font-size: 12px;
+    margin-top: 5px;
+    padding-left: 15px;
+
+}
+
+.close {
+    width: 30px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 3px;
+}
+
+.close:hover {
+    cursor: pointer;
+    background-color: #5b5f62;
+    
+}
+
+.back {
+    width: 30px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 3px;
+}
+
+.back:hover {
+    cursor: pointer;
+    background-color: #5b5f62;
+}
+
+.NavBar .navbar-createT {
+    top: 10px;
+    justify-self: center;
+    align-items: center;
+    position: absolute;
+    color: #9eacba;
+    justify-content: space-between;
+    width: 95%;
+    display: flex;
+    font-size: 15px;
+    font-weight: 500;
+}
