@@ -1,0 +1,130 @@
+head{
+    background-color: #ffff;
+
+}
+.Login{
+    height: 600px;
+    min-height: auto;
+    background-color: white;
+}
+
+.Login .padre {
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+}
+
+.Login .style-profile{
+ 
+    height: 30px;
+    width: 28px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.Login .text-profile{
+    margin-left: 5px;
+    font-size: 40px;
+    height: 58px;
+    font-family: "Onest";
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #e493b3ff;
+    
+}
+
+.Login .label1{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-family: "Onest";
+}
+
+.Login .toplogin{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+.Login .custom-width {
+    width: 350px; 
+    margin: auto;
+    display: block;
+  }
+
+.Login .textbox{
+    background-color: white;
+    border-color: #e493b3ff;
+    border-radius: 5px;
+    width: 100%;
+    padding: 15px;
+    border-width: 1.5px;
+    margin-bottom: 20px;
+    font-family: "Onest";
+    font-size: 15px;
+}
+
+.Login .textbox:hover{
+    background-color: #dcd8d840;
+    transition: background-color 0.4s ease;
+}
+
+.Login .textbox:focus{
+    outline: 1px solid #e493b3ff;
+    box-shadow: 0 0 5px #e493b3ff;
+}
+
+.Login .btnForm{
+    background-color: #e493b3ff;
+
+    border-radius: 5px;
+    width: 100%;
+    padding: 15px;
+    border-width: 0px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.Login .btnForm:hover{
+    background-color: rgb(224, 142, 175);
+}
+
+.Login .optios{
+    display: flex;
+    margin-top: 30px;
+
+    justify-content: center;
+}
+
+.Login .Text{
+    font-size: 16px;
+    color: gray;
+    font-family: "Onest";
+    margin-top: 5px;
+    border: none;
+    background-color: white;
+
+}
+.Login .Text:hover{
+    color: rgb(147, 67, 128);
+    transition: background-color 0.4s ease;
+    text-decoration: underline;
+}
+
+           
+.Login .row {
+    justify-content: center;
+    margin-top: 100px;
+    background-color: white;
+}
+
+.Login .btn-lg{
+    width: 100%;
+}
+
