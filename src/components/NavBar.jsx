@@ -4,9 +4,10 @@ import BoardCard from "./BoardCard"
 import React, { useState, useEffect, useRef } from 'react';
 import Dropdown from '../components/Dropdown'
 
+
 const NavBar = () => {
 
-
+    
     const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
     useEffect(() => {
         // Aplica el fondo deseado al body

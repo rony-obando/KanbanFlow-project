@@ -201,21 +201,21 @@ body {
     border-color: #6dcdd4;
 }
 
-.form-group label{
+.NavBar .form-group label{
     font-size: 400;
 }
 
 
-.form-group{
+.NavBar .form-group{
     justify-self: center;
     width: 90%;
 }
 
-.dropdown-menu.show {
+.NavBar .dropdown-menu.show {
     display: block; /* Visible cuando la clase `show` está presente */
 }
 
-.color-selector {
+.NavBar .color-selector {
     display: flex;
     gap: 8px;
     margin-top: 20px;
@@ -224,7 +224,7 @@ body {
 }
 
 
-.color-selector button {
+.NavBar .color-selector button {
     width: 50px;
     height: 35px;
     border: none;
@@ -233,32 +233,32 @@ body {
     opacity: 0.8;
 }
 
-.color-selector button:hover {
+.NavBar .color-selector button:hover {
     filter: brightness(1.3); 
 
 }
 
-.color-1 {
+.NavBar .color-1 {
     background: linear-gradient(to bottom right, #1565C0, #4FC3F7);
 }
 
-.color-2 {
+.NavBar .color-2 {
     background: linear-gradient(to bottom right, #e74c3c, #f39c12);
 }
 
-.color-3 {
+.NavBar .color-3 {
     background: linear-gradient(to bottom right, #272798, #7E7EF0);
 }
 
-.color-4 {
+.NavBar .color-4 {
     background: linear-gradient(to bottom right, #6A1B9A, #E91E63);
 }
 
-.form-group {
+.NavBar .form-group {
     margin-bottom: 15px;
 }
 
-.form-group label {
+.NavBar .form-group label {
     display: block;
     font-size: 12px;
     font-weight: bold;
@@ -266,8 +266,8 @@ body {
     color: #9eacba;
 }
 
-.form-group input[type="text"],
-.form-group select {
+.NavBar .form-group input[type="text"],
+.NavBar .form-group select {
     width: 100%;
     padding: 8px;
     border-radius: 4px;
@@ -277,7 +277,7 @@ body {
     color: #9eacba;
 }
 
-.warning-message {
+.NavBar .warning-message {
     color: #f28c28;
     font-size: 12px;
     margin-top: 5px;
@@ -285,7 +285,7 @@ body {
 
 }
 
-.close {
+.NavBar .close {
     width: 30px;
     height: 25px;
     justify-content: center;
@@ -294,13 +294,13 @@ body {
     border-radius: 3px;
 }
 
-.close:hover {
+.NavBar .close:hover {
     cursor: pointer;
     background-color: #5b5f62;
     
 }
 
-.back {
+.NavBar .back {
     width: 30px;
     height: 25px;
     justify-content: center;
@@ -309,7 +309,7 @@ body {
     border-radius: 3px;
 }
 
-.back:hover {
+.NavBar .back:hover {
     cursor: pointer;
     background-color: #5b5f62;
 }
